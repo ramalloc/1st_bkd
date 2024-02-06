@@ -1,0 +1,17 @@
+Starting with the Production
+-> Request and Response handled by Express
+-> We sent get request to the server which is handled or listen by listner.
+-> We make empty node application by {npm init} - This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+-> Now we wrote a script to run the main file or entry file {index.js}, It is helpful when the app is deployed on a server
+
+-> We started with Express We make a listener which is constaantly listening means our app is not closing.
+-> We have to restart the programme to save the changes in server.
+-> We done with pages response
+
+-> Now when we deploy the application in Production there is a chance that the data can be breach, so some datas should not 
+be available directly.
+-> To deploy the application in Production there is a package .env, So install and write config files in index.js
+    write the variables which should be hide process.env.VARIABLE_NAME (undefined by type) in .env file.
+
+-> Before Uploading repo on github add {.gitignore} file in repo
